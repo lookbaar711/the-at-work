@@ -1,0 +1,60 @@
+.circle-grid-profile {
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 15px;
+    /*padding: 0 0 100px;*/
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+
+.circle-image {
+    border: #4e4e4e;
+}
+    
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn-img {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 30px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.col-aptitude{
+  margin-left: 15px;
+}
+
+/* รูปโปรไฟล์ */
+.circular_image {
+width: 150px;
+height: 150px;
+object-fit: cover;
+border-radius: 50%;
+overflow: hidden;
+background-color: rgb(32, 32, 32);
+display:inline-block;
+vertical-align:middle;
+}
+.circular_image img{
+width:100%;
+}
+/* ------------------------------------- */

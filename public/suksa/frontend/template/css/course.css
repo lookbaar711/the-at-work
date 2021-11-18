@@ -1,0 +1,62 @@
+.img-responsive {
+    object-fit: cover;
+    width: 320px;
+    height: 180px;
+}
+
+.flex-c-m {
+    background: linear-gradient(to right, #17a7c0 0%, #7de442 100%)
+}
+.colorz {
+    color: white;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.fontss{
+    font-size:14px;
+}
+
+.page-item.active .page-link {
+    background-color: #000 !important;
+    border-color: #000 !important;
+    color: #fff !important;
+}
+
+.page-link {
+    color: #000 !important;
+}
+
+.page-item.disabled .page-link{
+    color: #ddd !important;
+}
+
+.status_close {
+    border-radius: 20px;
+    background: #9196A6;
+    color: white;
+    font-size: 14px;
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+}
+
+.status_open {
+    border-radius: 20px;
+    background: #3990F2;
+    color: white;
+    font-size: 14px;
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+}
+
+.status_commingsoon {
+    border-radius: 20px;
+    background: #FC8600;
+    color: white;
+    font-size: 14px;
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+}

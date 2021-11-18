@@ -1,0 +1,28 @@
+label{
+    font-size: 14px;
+    color: rgb(36, 36, 36);  
+}
+.form-group {
+    margin-bottom: form-group-margin-bottom;
+  }
+object{
+      color: rgb(153, 153, 153)
+  }
+.modal{
+  /* background-color: darkslateblue; */
+  background: rgba(102, 102, 102, 0.3);
+}
+  
+.oxide{
+font-size: 16px;
+font-weight: bold;
+border-left: 6px solid #01bd8d;
+  }
+
+.limit202{
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+

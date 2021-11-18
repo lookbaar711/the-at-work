@@ -1,0 +1,247 @@
+.pop{
+  font-size: 16px;
+}
+
+.btnsty{
+    width: 20px; 
+    height: 20px;
+    
+    background-color: #fff;
+    display: block;
+    margin: 10px 0;
+    position: relative;
+  
+}
+.btn-add{
+    width: 84px;
+    height: 36px;
+    padding: 0px;
+    margin-top: 25px;
+    bottom: 1px;
+    text-align: center;
+}
+
+.btn-remove{
+    width: 84px;
+    height: 36px;
+    padding: 0px;
+    margin-top: 25px;
+    bottom: 1px;
+    text-align: center;
+}
+
+.btn-add2{
+    width: 84px;
+    height: 36px;
+    padding: 0px;
+    margin-top: 25px;
+    bottom: 1px;
+    text-align: center;
+}
+
+.btn-add-other{
+    width: 84px;
+    height: 36px;
+    padding: 0px;
+    margin-top: 25px;
+    bottom: 1px;
+    text-align: center;
+}
+
+.option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 13.33333px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    transition: all 0.15s ease-out 0s;
+    background: #ffffff;    
+    border: 1px solid rgb(168, 168, 168);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+  }
+  .option-input:hover {
+    background: #569c37;
+  }
+  .option-input:checked {
+    background: #569c37;
+  }
+  .option-input:checked::before {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    content: '✔';   
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+  }
+  .option-input:checked::after {
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #569c37;
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100;
+  }
+
+p{
+  font-size: 16px
+}
+.btn-circle {
+width: 30px;
+height: 30px;
+padding: 6px 0px;
+border-radius: 15px;
+text-align: center;
+font-size: 12px;
+line-height: 1.42857;
+}
+
+/* --------------------------------------------------------------------------------- */
+.wizard-navigation{
+  font-family: 'Kanit', sans-serif;
+  
+}
+.oxide456{
+  color: #9faab7;
+}
+
+
+
+.custom-file-label{
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+object{
+  font-size: 16px ; 
+  font-weight: bold;
+  color: rgb(99, 99, 99);
+}
+
+
+/*--------------------------------------------------------------------------------*/
+.backgroundimg{
+ 
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  
+
+}
+.custom-control-label{
+  margin: auto;
+  width: 125px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.textdate{
+  font-size: 18px;
+}
+
+.removeFile{
+
+  color: red;
+  /* background-image: url('../js/144947.jpg'); */
+
+
+
+}
+
+/* --------------------------------------------------btn */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+ 
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+ 
+}
+
+/* -------------------------------------------ปุ่ม */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.btn-hover {
+
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.btn-hover.color-5 {
+  background: linear-gradient(to right, #13773b, #84cf3e);
+}
+
+.colorlink{
+  color: white;
+}
+
+/* --------------------------------------------sweet */
+.confirmButtonText{
+  background: linear-gradient(to right, #13773b, #84cf3e);
+  
+}
+
+
+
+

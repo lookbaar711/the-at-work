@@ -1,0 +1,208 @@
+.new05 {
+    background: linear-gradient(to right, #17a7c0, #7de442);
+    height: 5px;
+}
+
+.color7 {
+    background: linear-gradient(to right, #17a7c0, #7de442);
+}
+
+.textnumber {
+    font-size: 40px;
+
+    color: #6ab22a;
+    font-weight: bold;
+}
+
+.bigtext {
+    font-size: 18px;
+}
+
+.sizecheck {
+    width: 25px;
+}
+
+.sizepro {
+    width: 30%;
+}
+
+.right0 {
+    text-align: center;
+    color: #000000;
+}
+
+.right1 {
+    font-size: 20px;
+    color: #000000;
+}
+
+.center-imgs {
+    text-align: center;
+}
+
+#inner {
+    display: table;
+    margin: 0 auto;
+    border: 0px solid;
+}
+
+.caps {
+    font-size: 40px;
+    background: linear-gradient(to left, #0f94ac, #7de442);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img-size {
+    width: 80%;
+    height: auto;
+
+}
+
+.colorlink {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to left, #0f94ac, #7de442);
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.product-img1 .product-img1 img {
+    width: 100%;
+    height: auto;
+}
+
+/* The container */
+.container-radio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container-radio input {
+position: absolute;
+opacity: 0;
+cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+p.dotted {
+  border-style: dotted;
+  border-radius: 8px;
+}
+
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 13.33333px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  transition: all 0.15s ease-out 0s;
+  background: #ffffff;
+  border: 1px solid rgb(168, 168, 168);
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+.option-input:hover {
+  background: #569c37;
+}
+.option-input:checked {
+  background: #569c37;
+}
+.option-input:checked::before {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  content: '✔';
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+}
+.option-input:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  background: #569c37;
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+
+/* On mouse-over, add a grey background color */
+.container-radio:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container-radio input:checked ~ .checkmark {
+  background-color: #6ab22a;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container-radio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container-radio .checkmark:after {
+     top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+.hide {
+    display: none;
+}
+
+.daterange-input {
+background: url(../suksa/frontend/template/images/147083.jpg) no-repeat right 5px center;
+background-color: #FFFFFF;
+}
+
+.input-group-addon{
+
+  display: none;
+}
+.input-group-append{
+  display: none;
+}

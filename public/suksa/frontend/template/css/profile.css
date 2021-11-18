@@ -1,0 +1,665 @@
+/* css หน้า profile */
+
+/*pagination*/
+
+.page-item.active .page-link {
+    background-color: #000 !important;
+    border-color: #000 !important;
+    color: #fff !important;
+}
+
+.page-link {
+    color: #000 !important;
+}
+
+.page-item.disabled .page-link{
+    color: #ddd !important;
+}
+/*pagination*/
+
+/* .modal-footer {
+    display: block;
+} */
+
+.modal-lg {
+    max-width: 650px;
+}
+
+.customers {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customers td, #customers th {
+  /*border: 1px solid #ddd;*/
+  padding: 7px;
+}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 7px;
+    text-align: left;
+    background-color: #dcdcdc;
+    color: #000;
+}
+
+.tab .nav-tabs .nav-link {
+    background: #eee;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tab .nav-tabs li {
+    text-align: center;
+    margin-right: 3px;
+    padding-right: 3px;
+}
+
+.tab .nav-tabs li a {
+    font-size: 15px;
+    /* font-weight: 600; */
+    background: #eee;
+    margin-right: 0;
+    border-radius: 0;
+    border: none;
+    /*text-transform: uppercase;*/
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+
+.tab .nav-tabs li.active a,
+.tab .nav-tabs li a:hover {
+    background: #000;
+    color: #fff;
+    border: none;
+}
+
+.tab .nav-tabs li a.active {
+    background: #000;
+    color: #fff;
+    border: none;
+}
+
+.tab .tab-content {
+    font-size: 15px;
+    color: #3d3537;
+    padding-top: 15px;
+}
+
+.tab .tab-content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 480px) {
+    .tab .nav-tabs li {
+        width: 100%;
+        padding-bottom: 8px;
+    }
+    .nav-link {
+        background: #000;
+        border-radius: 5px 5px 5px 5px !important;
+    }
+    .fontsize478 div {
+        margin-left: 0px !important;
+    }
+}
+
+.circle-grid-profile {
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 15px;
+    /*padding: 0 0 100px;*/
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+
+.flex-c-m {
+    background: linear-gradient(to right, #17a7c0 0%, #7de442 100%)
+}
+
+.flex-c-m-rating {
+    background: linear-gradient(to right, #ff9900 0%, #ffe000 100%)
+}
+
+.colorz {
+    color: white;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.imgsize-s {
+    width: 20px;
+    height: auto;
+}
+
+.color-z {
+    color: #56c913;
+}
+
+.fontcolor01 {
+    color: white;
+}
+
+.fontsize478 {
+    font-size: 25px;
+}
+
+.fontstyle02 {
+    font-size: 18px;
+}
+
+.fontnum {
+    font-size: 25px;
+    color: #e4c200
+}
+
+.box1 {
+    text-align: left;
+    color: rgb(24, 24, 24);
+}
+
+.profile01 {
+    font-size: 25px;
+    color: #6ab22a;
+    font-weight: bold;
+}
+
+.bigcheckbox {
+    width: 25px;
+    height: 25px;
+}
+
+.textcolor {
+    color: #6ab22a;
+}
+
+.color7 {
+    color: #000;
+    font-size: 20px;
+}
+
+.button-s {
+    border-radius: 20px;
+    font-size:14px
+}
+
+.btn-outline-dark:hover {
+    color: #fff;
+}
+
+.btn-default {
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+
+/* เช็คบล็อค Buttons */
+
+.button-group-pills {
+    border: #17a7c0;
+    border-radius: 20px;
+    line-height: 1.2;
+    border-color: white;
+    color: #4e4e4e;
+    text-align: center;
+    /*border: solid;*/
+    border-color: rgb(187, 187, 187);
+}
+
+.btn.active {
+    border-radius: 20px;
+    border-color: #56c913;
+    background-color: #56c913;
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+}
+
+.hover {
+    border-radius: 20px;
+    border-color: goldenrod;
+    background-color: slateblue;
+    color: seagreen;
+}
+
+
+/* เช็คบล็อค Buttons */
+
+.oxide456 {
+    color: #000000;
+}
+
+
+/* เช็คบล็อค */
+
+.option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 13.33333px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+}
+
+.option-input:hover {
+    background: #9faab7;
+}
+
+.option-input:checked {
+    background: #569c37;
+}
+
+.option-input:checked::before {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    content: '✔';
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+
+.option-input:checked::after {
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #569c37;
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+
+/* เช็คบล็อค */
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btns {
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 24, 24);
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.upload-btns-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+
+/* btn */
+
+.btn-hover.color-5 {
+    background: linear-gradient(to right, #13773b, #84cf3e);
+}
+
+.colorlink {
+    color: white;
+}
+
+
+/* --------------------------------------------sweet */
+
+.confirmButtonText {
+    background: linear-gradient(to right, #13773b, #84cf3e);
+}
+
+
+/* a:link {
+    color: rgb(255, 255, 255);
+} */
+
+.wellcome-s {
+    color: #000;
+}
+
+.inputfiles-img {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.inputfiles-img {
+    color: rgb(255, 255, 255);
+    background-color: rgb(36, 36, 36);
+    padding: 3px 9px;
+    border-radius: 8px;
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+
+.inputfiles-img input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.img-responsive {
+    object-fit: cover;
+    width: 100%;
+    height: 180px;
+}
+
+.img-responsive2 {
+    object-fit: cover;
+    width: 320px;
+    height: auto;
+}
+
+.img-responsive3 {
+    background-size: cover;
+    width: 100%;
+}
+
+.img-responsive4 {
+    width: 90;
+    height: auto;
+    border: #000;
+}
+
+.img-responsive5 {
+    width: 90;
+    height: 900;
+    border: #000;
+}
+
+.img-responsive6 {
+    width: 100%;
+    height: auto;
+    /* border: #000; */
+}
+
+.free {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+}
+
+.notfree {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+}
+
+.free2 {
+    font-size: 26px;
+    color: #6ab22a;
+    font-weight: bold;
+}
+
+.free3 {
+    font-size: 26px;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.border02 {
+    border: 2px solid red;
+    margin: 1 auto;
+}
+
+.dot2 {
+    border-radius: 20px;
+    height: auto;
+    width: 70px;
+    background-color: #FC8600;
+    display: inline-block;
+}
+
+.dot3 {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(219, 47, 47);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle-image {
+    border: #4e4e4e;
+}
+
+
+/* .fa-graduation-cap{
+  background: linear-gradient(to right, #17a7c0, #7de442);
+
+} */
+
+.iconhatfont {
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.mouse125 {
+    cursor: pointer;
+}
+
+#inner {
+    display: table;
+    margin: 0 auto;
+    border: 0px solid;
+}
+
+.checked {
+    color: orange;
+}
+
+.teachersize {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.teachersize2 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.showteacher {
+    color: #272727;
+    font-size: 15px;
+}
+
+.button-show {
+    border-radius: 20px;
+    border: 0px solid;
+    background-color: #569c37;
+    color: white;
+}
+
+.button-size {
+    white-space: 50px;
+}
+
+
+/* radio button */
+
+.input-hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+input[type=radio]:checked+label>div {
+    border: 1px solid #fff;
+    box-shadow: 0 0 3px 3px #090;
+}
+
+
+/* Stuff after this is only to make things more pretty */
+
+input[type=radio]+label>div {
+    border: 1px solid rgb(231, 231, 231);
+    transition: 500ms all;
+}
+
+
+/* ----------------- */
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+
+/* รูปโปรไฟล์ */
+
+.circular_image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(32, 32, 32);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.circular_image img {
+    width: 100%;
+}
+/* ------------------------------------- */
+
+.card-content {
+    border-style: solid;
+    border-color: #D8D8D8;
+
+}
+
+.circle-grid-course {
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 15px;
+    /*padding: 0 0 100px;*/
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+}
+
+.circular_image_course {
+    width: 150px;
+    object-fit: cover;
+    /*border-radius: 50%;*/
+    overflow: hidden;
+    background-color: rgb(32, 32, 32);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.circular_image_course img {
+    width: 100%;
+}
+
+.text-profile-noti{
+    color: #6ab22a;
+    font-size: 16px;
+    font-weight: bold;
+}
+.text-head-coins{
+    color: rgb(37, 37, 37);
+    font-size: 16px;
+    font-weight: bold;
+}
+.border-radius{
+  border-radius: 20px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #FC8600;
+}
+
+.button-commingsoon {border-radius: 20px;}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #9196A6;
+}
+.button-close {border-radius: 20px;}
+
+
+.btn-request {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: .25rem;
+    transition: all .15s ease-in-out;
+}
+.fs-16 {
+  font-size: 16px;
+}
